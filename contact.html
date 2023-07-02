@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us</title>
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
+  </script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image: url('images/bgpic.png');">
+	 <nav>
+    <div class="nav-wrapper">
+    <img src="images/logo.png" style="width: 60px; height: 60px; padding-top: 10px;">
+      <a href="#" class="brand-logo black-text"> Today's Adventure</a>
+      <ul class="right hide-on-med-and-down">
+      	<li><a href="index.html" class="menu">Home</a></li>
+        <li><a href="offers.html" class="menu">Offers</a></li>
+        <li><a href="contact.html" class="menu" style="text-decoration: underline;">Contact us</a></li>
+        <li>
+        <!-- Modal Trigger -->
+        <a class="waves-effect waves-light btn 
+            green darken-1 modal-trigger" 
+            href="#demo-modal">
+            Plan your Trip
+        </a>
+  
+        <!-- Modal Structure -->
+        <div id="demo-modal" class="modal">
+            <div class="modal-content">
+
+               <h5 class="center black-text">Glad to have you on our trip</h5>
+               <h3><span></span></h3>
+		<form action="" method="post" class="formhotel black-text">
+		    <div class="tab-content">
+				<div class="tab-pane" id="two">
+					        	<h5>Book your stay</h5>
+
+					          	<p class="pick">Destination</p>
+					          	<div class="input-group">
+					          		<div class="input-group-prepend">
+					          			<span class="input-group-text"> <i class="fas fa-map-marker-alt"></i></span>
+					          			<input type="text" class="form-control" placeholder="Destination" style="width: 365px;">
+					          		</div>
+					          	
+					          		<div class="row">
+									    <div class="col s6">
+									    	<p class="pick">Check in Date </p>
+									      	<input type="date" class="form-control">
+									    </div>
+									    <div class="col s6">
+									    	<p class="pick">Check out Date</p>
+									      	<input type="date" class="form-control">
+									    </div>
+									</div>
+									<div class="row">
+									    <div class="col">
+									    	<p class="pick">Adults</p>
+									      	<input type="number" class="form-control" placeholder="0">
+									    </div>
+									    <div class="col">
+									    	<p class="pick">Children</p>
+									      	<input type="number" class="form-control" placeholder="0">
+									      <br>
+									    </div>
+									</div>
+									
+								</div>
+				        	
+				        
+				    
+				</div>  
+			</div>
+		</form>
+            </div>
+  
+            <div class="modal-footer">
+            	<a href="#!" class="modal-action 
+                    modal-close waves-effect waves-green 
+                    btn green lighten-1">
+                    Search
+                </a>
+                <a href="#!" class="modal-action 
+                    modal-close waves-effect waves-green 
+                    btn green lighten-1">
+                    Close
+                </a>
+            </div>
+        </div>
+    </li>
+
+      </ul>
+    </div>
+  </nav>
+<br>
+<div class="contact-box">
+  <div class="row">
+  	<br>
+  	<h4 class="center">Get in touch with us.</h4>
+  	<h3><span></span></h3>
+    <form class="col s12 white">
+      <div class="row black-text">
+        <div class="input-field col s12 black-text">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix" class="black-text">Name</label>
+        </div>
+        <div class="input-field col s12 black-text">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone" class="black-text">Telephone</label>
+        </div>
+        <div class="input-field col s12 black-text">
+          <i class="material-icons prefix">email</i>
+          <input id="icon_email" type="email" class="validate">
+          <label for="icon_email" class="black-text">Email</label>
+        </div>
+        <div class="input-field col s12 black-text">
+          <i class="material-icons prefix">edit</i>
+          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+          <label for="icon_prefix2" class="black-text">Message</label>
+        </div>
+      </div>
+				 <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+  <br><br>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+        $(document).ready(function () {
+            $('.modal').modal();
+        }
+        )
+
+    </script>
+</body>
+</html>

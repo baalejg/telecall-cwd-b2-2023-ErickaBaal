@@ -1,0 +1,133 @@
+body {
+		 
+		  background-repeat: no-repeat;
+		  background-size: 1400px 600px;
+		  background-color: #f7f7f7;
+		}
+
+.menu {
+	font-family: Georgia ;
+	color: #26a69a;
+}
+
+.nav-wrapper {
+	background-color: white;
+}
+
+.brand-logo {
+	font-family: Georgia ;
+}
+.tagline1{
+			font-family: Impact;
+			color: white;
+}
+.hero{
+			text-align: center;
+			margin-top: 100px;
+}
+
+.card{
+			border: 1px solid #21B6A8;
+			padding: 10px;
+			box-shadow: 5px 5px #21B6A8;
+		}
+
+.btnbrowse { 
+	  background-color: white;
+	  padding: 10px 10px;
+	  font-size: 16px;
+	  cursor: pointer;
+	  border-color: #04AA6D;
+  	  color: green;
+}
+
+.btnbrowse:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+		#img {
+			width: 400px;
+			height: 500px;
+			margin-left: 600px;
+		}
+h3 {
+		   width: 100%; 
+		   text-align: center; 
+		   border-bottom: 3px solid #18A558; 
+		   line-height: 0.1em;
+		   margin: 10px 0 20px; 
+		   font-size: 30px;
+		} 
+.packagetitle { 
+		    background:#f7f7f7;
+		    padding:0 10px; 
+		}
+
+.pckg {
+	padding: 20px;
+}
+
+.packg {
+	transition: 1s;
+}
+.packg:hover {
+			transform: scale(1.1);
+			z-index: 2;
+			box-shadow: 2px 2px 2px #000;
+			
+		}
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card4 {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+
+box-shadow: 1px 1px 20px 3px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card4 .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card4 .card_image img {
+  width: inherit;
+  height: inherit;
+
+  object-fit: cover;
+}
+
+
+
+.card4:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+.tabs {
+	border-color: #04AA6D;
+}
+
+.brand-logo{
+	margin-left: 25px;
+}
+
+
+.contact-box {
+	display: flex;
+	justify-content: center;
+
+}
+
+
+

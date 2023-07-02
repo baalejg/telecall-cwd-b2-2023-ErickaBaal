@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Today's Adventure</title>
+
+		<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script type="text/javascript" src=
+			"https://code.jquery.com/jquery-2.1.1.min.js">
+		</script>
+		<script src= "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image: url('images/bgpic.png')">
+
+  <nav>
+    <div class="nav-wrapper">
+    <img src="images/logo.png" style="width: 60px; height: 60px; padding-top: 10px;">
+      <a href="#" class="brand-logo black-text"> Today's Adventure</a>
+      <ul class="right hide-on-med-and-down">
+      	<li><a href="index.html" class="menu" style="text-decoration: underline;">Home</a></li>
+        <li><a href="offers.html" class="menu">Offers</a></li>
+        <li><a href="contact.html" class="menu">Contact us</a></li>
+        <li>
+			<!-- Modal Trigger -->
+			<a class="waves-effect waves-light btn 
+				green darken-1 modal-trigger" 
+				href="#demo-modal">
+				Plan your Trip
+			</a>
+			<!-- Modal Structure -->
+			<div id="demo-modal" class="modal">
+				<div class="modal-content">
+
+               <h5 class="center black-text">Glad to have you on our trip</h5>
+               <h3><span></span></h3>
+				<form action="" method="post" class="formhotel black-text">
+					<div class="tab-content">
+						<div class="tab-pane" id="two">
+							<h5>Book your stay</h5>
+										<p class="pick">Destination</p>
+										<div class="input-group">
+											<div class="input-group-prepend">
+												<span class="input-group-text"> <i class="fas fa-map-marker-alt"></i></span>
+												<input type="text" class="form-control" placeholder="Destination" style="width: 365px;">
+											</div>
+											
+											<div class="row">
+												<div class="col s6">
+													<p class="pick">Check in Date </p>
+													<input type="date" class="form-control">
+												</div>
+												<div class="col s6">
+													<p class="pick">Check out Date</p>
+													<input type="date" class="form-control">
+												</div>
+											</div>
+											<div class="row">
+												<div class="col">
+													<p class="pick">Adults</p>
+													<input type="number" class="form-control" placeholder="0">
+												</div>
+												<div class="col">
+													<p class="pick">Children</p>
+													<input type="number" class="form-control" placeholder="0">
+												<br>
+												</div>
+											</div>
+											
+										</div>
+						</div>  
+					</div>
+				</form>
+            </div>
+  
+            <div class="modal-footer">
+            	<a href="#!" class="modal-action 
+                    modal-close waves-effect waves-green 
+                    btn green lighten-1">
+                    Search
+                </a>
+                <a href="#!" class="modal-action 
+                    modal-close waves-effect waves-green 
+                    btn green lighten-1">
+                    Close
+                </a>
+            </div>
+        </div>
+    	</li>
+
+      </ul>
+    </div>
+  </nav>
+  <div class="hero">
+  	<h1 class="tagline1">Adventure awaits, go find it.</h1>
+		<h5 class="tagline" style="color: white">FEED YOUR WANDERLUST.</h5>
+		<br>
+		<button class="btn btn-success" id="btnexplore" type="submit"> <a href="offers.html" style="color: white;"> Explore Now &nbsp; </a><i class="fas fa-arrow-circle-right"><br></i></button>	
+		<br>
+		<br>
+  </div>
+  <br><br><br>
+  <div class=" container row">
+      <div class="col s4">
+      	<div class="card" >
+	        <div class="card-image">
+	          <img src="images/hotel1.jpg" class="card-img-top" alt="..." height="210px;">
+	          
+		    </div>
+		    <div class="card-content">
+		    		<span class="card-title">HOTELS</span>
+		        	<p style="text-align: justify;"> Accommodating your peace of mind. You will find everything necessary to enjoy a perfect stay with our hotel offered. </p>
+		    </div>
+		    <div class="card-action">
+		        <a href="offers.html"> <button class="btnbrowse" type="submit">Browse Brochure</button> </a>
+	        </div>
+	    </div>       
+      </div>
+
+      <div class="col s4">
+      	<div class="card">
+	        <div class="card-image">
+	          <img src="images/airplane.jpg" class="card-img-top" alt="..." height="210px;">
+		    </div>
+		    <div class="card-content">
+		    		 <span class="card-title">FLIGHTS</span>
+		        	<p style="text-align: justify;"> Accommodating your peace of mind. You will find everything necessary to enjoy a perfect stay with our hotel offered. </p>
+		    </div>
+		    <div class="card-action">
+		         <a href="offers.html"> <button class="btnbrowse" type="submit">  Browse Brochure </button></a>
+	        </div>
+	     </div>
+        
+      </div>
+
+      <div class="col s4">
+      	<div class="card">
+	        <div class="card-image">
+	          <img src="images/tour.jpg" class="card-img-top" alt="..." height="210px;">         
+		    </div>
+		    <div class="card-content">
+		    	<span class="card-title">TOUR</span>
+		        <p style="text-align: justify;"> Accommodating your peace of mind. You will find everything necessary to enjoy a perfect stay with our hotel offered. </p>
+		    </div>
+		    <div class="card-action">
+		        <a href="offers.html"> <button class="btnbrowse" type="submit">Browse Brochure</button> </a>
+	        </div>
+	    </div>  
+      </div>
+
+    </div>
+
+    <div class="packages">
+    	<br>
+		<br><br><br>
+		<h3><span class="packagetitle">Top Destinations and Travel Packages For You </span></h3>
+		<br>
+    	<div class="row pckg">
+	      <div class="col s6"><a href="offers.html"><img class="packg" src="images/1.png" width="600" height="100"> </a></div>
+	      <div class="col s6"><a href="offers.html"><img class="packg" src="images/2.png" width="600" height="100"></a></div>
+    	</div> 
+    	<div class="row pckg">
+	      <div class="col s6"><a href="offers.html"><img class="packg" src="images/3.png" width="600" height="100"></a></div>
+	      <div class="col s6"><a href="offers.html"><img class="packg" src="images/4.png" width="600" height="100"></a></div>
+    	</div> 
+    	<center><button type="button" class="btn btn-outline-success">View More Packages</button></center>
+    	<br><br>
+    </div>
+    <br><br><br>
+    <div class="container gallery">
+    	<h3><span class="packagetitle">Top Tourist Spots in Philippines</span></h3>
+
+		<div class="row">
+			<div class="col s12">
+				<ul class="tabs">
+					<li class="tab col s3 teal-text"><a href="#test1" class="active teal-text">Palawan</a></li>
+					<li class="tab col s3"><a class="teal-text" href="#test2">Siargao</a></li>
+					<li class="tab col s3"><a href="#test3" class="teal-text">Baguio</a></li>
+					<li class="tab col s3"><a href="#test4" class="teal-text">Sagada</a></li>
+				</ul>
+			</div>
+			<div id="test1" class="col s12">				 
+				<div class="cards-list">
+			
+					<div class="card4 1">
+						<div class="card_image">
+							<img src="images/palawan1.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 2">
+						<div class="card_image">
+							<img src="images/palawan2.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 3">
+						<div class="card_image">
+							<img src="images/palawan3.jpg" />
+						</div>
+					</div>
+					
+					<div class="card4 4">
+						<div class="card_image">
+							<img src="images/palawan3.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 4">
+						<div class="card_image">
+							<img src="images/palawan1.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 4">
+						<div class="card_image">
+							<img src="images/palawan2.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="test2" class="col s12">    	
+				<div class="cards-list">
+			
+					<div class="card4 1">
+						<div class="card_image">
+							<img src="images/siargao1.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 2">
+						<div class="card_image">
+							<img src="images/siargao2.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 3">
+						<div class="card_image">
+							<img src="images/siargao3.jpg" />
+						</div>
+					</div>
+					
+					<div class="card4 4">
+						<div class="card_image">
+							<img src="images/siargao3.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 4">
+						<div class="card_image">
+							<img src="images/siargao1.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 4">
+						<div class="card_image">
+							<img src="images/siargao2.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="test3" class="col s12">			<div id="test2" class="col s12">    	
+				<div class="cards-list">
+			
+					<div class="card4 1">
+						<div class="card_image">
+							<img src="images/baguio1.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 2">
+						<div class="card_image">
+							<img src="images/baguio2.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 3">
+						<div class="card_image">
+							<img src="images/baguio3.jpg" />
+						</div>
+					</div>
+					
+					<div class="card4 4">
+						<div class="card_image">
+							<img src="images/baguio3.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 4">
+						<div class="card_image">
+							<img src="images/baguio1.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 4">
+						<div class="card_image">
+							<img src="images/baguio2.jpg" />
+						</div>
+					</div>
+				</div>
+			</div></div>
+			<div id="test4" class="col s12">			<div id="test2" class="col s12">    	
+				<div class="cards-list">
+			
+					<div class="card4 1">
+						<div class="card_image">
+							<img src="images/sagada1.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 2">
+						<div class="card_image">
+							<img src="images/sagada2.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 3">
+						<div class="card_image">
+							<img src="images/sagada3.jpg" />
+						</div>
+					</div>
+					
+					<div class="card4 4">
+						<div class="card_image">
+							<img src="images/sagada3.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 4">
+						<div class="card_image">
+							<img src="images/sagada1.jpg" />
+						</div>
+					</div>
+
+					<div class="card4 4">
+						<div class="card_image">
+							<img src="images/sagada2.jpg" />
+						</div>
+					</div>
+				</div>
+			</div></div>
+		</div>
+    </div>
+    <hr>
+    <footer class = "page-footer white">
+        <div class = "row">
+            <div class = "col s12 m6 l6">
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4 black-text">Today's Adventure</h5>
+	        				<p class="black-text">We are here to bring comfort of travelling for every one. All you need as a traveler is completely here. Checked for additional promos and discounts.</p>
+            </div>
+           
+            <div class = "col">
+               <ul class="center">
+                  <li><a href = "#" class = "black-text text-lighten-4 right">
+                     <b>Blog </b></a></li> <br>
+                  <li><a href = "#" class = "black-text text-lighten-4 right">
+                     Exploring Baguio</a></li>
+                  <li><a href = "#" class = "black-text text-lighten-4 right">
+                     Peaceful Sunday in Siargao</a></li>
+                  <li><a href = "#" class = "black-text text-lighten-4 right">
+                     Adventurer's Path</a></li>
+               </ul>
+            </div>
+
+            <div class = "col">
+               <ul class="center">
+                  <li><a href = "#" class = "black-text text-lighten-4 right">
+                     <b>Industry Partners </b></a></li>
+                  <li><a href = "#" class = "black-text text-lighten-4 right">
+                     AirAsia Phil.</a></li>
+                  <li><a href = "#" class = "black-text text-lighten-4 right">
+                     Cebu Pacific</a></li>
+                  <li><a href = "#" class = "black-text text-lighten-4 right">
+                     2Go Travel</a></li>
+               </ul>
+            </div>
+
+        	<div class = "col">
+               <ul class="center">
+                  <li><a href = "#" class = "black-text text-lighten-4 right">
+                     <b> Help </b></a></li>
+                  <li><a href = "#" class = "black-text text-lighten-4 right">
+                     Privacy and Terms</a></li>
+                  <li><a href = "#" class = "black-text text-lighten-4 right">
+                     User Agreement</a></li>
+                  <li><a href = "#" class = "black-text text-lighten-4 right">
+                     Explore Website</a></li>
+               </ul>
+            </div>
+         </div>
+         
+         <div class = "footer-copyright teal center">
+            <div class = "container">
+               © 2023 Copyright Today's Adventure
+              
+            </div>
+         </div>         
+       </footer>
+
+
+<script>
+        $(document).ready(function () {
+            $('.modal').modal();
+        }
+        )
+
+    </script>
+
+
+</body>
+</html>
